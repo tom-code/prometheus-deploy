@@ -13,7 +13,7 @@ resources:
 - clusterrolebinding.yaml
 images:
 - name: prom/prometheus
-  newTag: v2.3.2
+  newTag: fix
 configMapGenerator:
 - name: prometheus-configuration
   files:
